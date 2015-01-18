@@ -11,11 +11,12 @@ public:
   	Player(); //constructor
   	~Player(); //destructor
 	void bet(int amount); // allows player to bet chips
-	void hit(); // requests another card from the dealer
+	void hit(Card given_card); // requests another card from the dealer
 	void look_at_player_hand(string player_id); //displays ascii art of a
 	                                             //requested player's cards
 	bool split_hand(); //specific behavior for double card hands
 	void sync_holdings(int winnings); //resets player for new turn, adds winnings
+	void card_dealt(Card given_card);
 private:
 	int chips; // player's "money"
 	int bet; // player's bet on a single hand
