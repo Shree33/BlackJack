@@ -8,8 +8,8 @@ using namespace std;
 
 class Player {
 public:
-  Player(); //constructor
-  ~Player(); //destructor
+  	Player(); //constructor
+  	~Player(); //destructor
 	void bet(int amount); // allows player to bet chips
 	void hit(); // requests another card from the dealer
 	void look_at_player_hand(string player_id); //displays ascii art of a
