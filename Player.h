@@ -17,6 +17,7 @@ public:
 	bool split_hand(); //specific behavior for double card hands
 private:
 	int chips; // player's "money"
+	int bet; // player's bet on a single hand
 	Hand cards[]; // player's cards
 	void print_cards(string player_id); // ascii card printer
 }
