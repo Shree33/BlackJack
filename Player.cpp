@@ -24,14 +24,14 @@ Player::~Player(){
 
 void Player::bet(int amount){
 	// Check if has player has enough
-	chips = chips - amount;
+	chips -= amount;
 	bet = amount;
 
 }
 
 
-Card* Player::look_at_player_hand(string player_id){
-
+Card* Player::look_at_player_hand(string player_id) {
+	return &cards;
 }
 
 bool Player::split_hand(){
@@ -40,9 +40,10 @@ bool Player::split_hand(){
 }
 
 void Player::print_cards(string player_id){
-
+	
 }
 
-void sync_holdings(){
-
+void sync_holdings(int winnings){
+	bet += winnings;
+	chips += bet; //bet+winnings added to holdings
 }
