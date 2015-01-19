@@ -26,7 +26,6 @@ void Player::bet(int amount){
 	// Check if has player has enough
 	chips -= amount;
 	bet = amount;
-
 }
 
 
@@ -40,7 +39,8 @@ bool Player::split_hand(){
 }
 
 void Player::print_cards(string player_id){
-	
+	//print ascii art of cards to player; call look at player hand, convert
+	//that into appropriate art
 }
 
 void sync_holdings(int winnings){
