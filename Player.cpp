@@ -41,6 +41,7 @@ Card* Player::look_at_player_hand(string player_id){
 bool Player::split_hand(){
 	// possibly create a new player, both players share a chips, and winnings 
 	// are transferred back to player one
+	
 }
 
 void Player::print_cards(string player_id){
