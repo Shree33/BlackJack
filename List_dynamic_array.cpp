@@ -56,7 +56,7 @@ void List_dynamic_array::print_list()
 	for(int i = 0; i < cards_held; i++) {
 		cards[i].print_card();
 		if (i != cards_held-1) {
-			cout << ", "; */
+			cout << ", "; 
 		} else {
 			cout << "\n";
 		}

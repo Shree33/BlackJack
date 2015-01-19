@@ -1,5 +1,5 @@
-#define __player_h___
-#ifndef __player_h___
+#ifndef __player_h__
+#define __player_h__
 
 #include <iostream>
 #include "hand.h"
@@ -29,4 +29,4 @@ private:
 };
 
 
-#endif __player_h___
+#endif __player_h__
