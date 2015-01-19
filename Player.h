@@ -6,6 +6,7 @@
 
 #define MININUM_BET 5
 #define MAXIMUM_BET 10*MINIMUM_BET
+#define INITIAL_CAPACITY 2
 
 using namespace std;
 

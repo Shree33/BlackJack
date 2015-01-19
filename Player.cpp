@@ -12,6 +12,7 @@ using namespace std;
 
 Player::Player()
 {
+	cards = new Card[INITIAL_CAPACITY];
 	chips = 500;
 	bet = 0;
 	cards_held = 0;
