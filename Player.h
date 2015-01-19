@@ -14,7 +14,7 @@ public:
   	Player(); //constructor
   	~Player(); //destructor
 	void bet(int amount); // allows player to bet chips
-	Card* look_at_player_hand(string player_id); //displays ascii art of a
+	Card* get_player_hand(); //displays ascii art of a
 	                                             //requested player's cards
 	bool split_hand(); //specific behavior for double card hands
 	void sync_holdings(int winnings); //resets player for new turn, adds winnings

@@ -75,6 +75,6 @@ void sync_holdings(int winnings){
 
 }
 
-void give_cards(Card given_card){
+void take_cards(Card given_card){
 
 }
