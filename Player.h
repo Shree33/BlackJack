@@ -1,3 +1,6 @@
+#define __player_h___
+#ifndef __player_h___
+
 #include <iostream>
 #include "hand.h"
 
@@ -24,3 +27,6 @@ private:
 	Hand *cards[]; // player's cards
 	void print_cards(string player_id); // ascii card printer
 };
+
+
+#endif __player_h___
