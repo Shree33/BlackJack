@@ -7,6 +7,8 @@
 class Dealer: public Player
 {
 public:
+	Dealer();
+	~Dealer();
 	void deal_cards(Card c, Player player_name);
 	void give_chips(int winnings, Player player_name);
 	
