@@ -11,6 +11,8 @@
 #include <iostream>
 #include "player.h"
 
+using namespace std;
+
 Player::Player()
 {
 	chips = 500;
@@ -29,7 +31,7 @@ void Player::bet(int amount){
 }
 
 
-void Player::look_at_player_hand(string player_id){
+Card* Player::look_at_player_hand(string player_id){
 
 }
 
@@ -39,4 +41,7 @@ bool Player::split_hand(){
 
 void Player::print_cards(string player_id){
 
+}
+void sync_holdings(){
+	
 }
