@@ -6,6 +6,10 @@
 
 #define MININUM_BET 5
 #define MAXIMUM_BET 10*MINIMUM_BET
+<<<<<<< HEAD
+#define INITIAL_CAPACITY 2
+=======
+>>>>>>> FETCH_HEAD
 
 using namespace std;
 
@@ -19,6 +23,11 @@ public:
 	bool split_hand(); //specific behavior for double card hands
 	void sync_holdings(int winnings); //resets player for new turn, adds winnings
 	void give_card(Card given_card); //
+<<<<<<< HEAD
+	int get_bet();
+	int get_holdings();
+=======
+>>>>>>> FETCH_HEAD
 private:
 	string player_name;
 	int cards_held;
