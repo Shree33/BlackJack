@@ -22,10 +22,15 @@ Player::~Player(){
 }
 
 void Player::bet(int amount){
-	// Check if has player has enough
-	chips = chips - amount;
-	bet = amount;
+	// Check if has player has enough and is within bet min/max
+	if(amount > MINIMUM_BET && amount < MAXIMUM_BET){
 
+		if(bet < chips){
+
+			chips = chips - amount;
+			bet = amount;
+		}
+	}
 }
 
 
